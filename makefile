@@ -2,7 +2,7 @@ For c:
   gcc -c -fPIC one.c -o one.o
 	gcc -shared -o libone.so one.o
 	gcc -c test.c -o test.o
-	gcc test.o -L. -Wl,-rpath,. -lfso -o test
+	gcc test.o -L. -Wl,-rpath,. -lone -o test
 
 For c++:
   g++ -c -Wall test_cpp.cpp -o test_cpp.o
