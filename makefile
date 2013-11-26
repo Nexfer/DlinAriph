@@ -5,7 +5,7 @@ For c:
 	gcc test.o -L. -Wl,-rpath,. -lone -o test
 
 For c++:
-  g++ -c -Wall test_cpp.cpp -o test_cpp.o
+  g++ -c -Wall test2.cpp -o test2.o
 	g++ -c -fPIC two.cpp -o two.o
 	g++ two.o -g -shared -L. -lone -Wl,-rpath,. -o libtwo.so
 	g++ test2.o -o test2 -L. -ltwo -Wl,-rpath,.
