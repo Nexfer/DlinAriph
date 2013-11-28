@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 
-#define block 200
+#define block 20000
 
 int readd(unsigned char **number,char *file,unsigned char *znak)
 {
