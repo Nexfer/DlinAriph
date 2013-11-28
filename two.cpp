@@ -3,7 +3,7 @@
 #include <string.h>
 #include <stdlib.h>
 
-#define block 200
+#define block 20000
 
 
 	veryLong::veryLong()
